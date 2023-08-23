@@ -1,0 +1,71 @@
+:root{
+    color: #000;
+background: #AD7575;
+background: var(--black, #1E1E1E);
+}
+@media (max-width: 768px) {
+    .sub-heading {
+      font-size: 20px;
+    }
+/* Reset default margin and padding on all elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .section-heading {
+    margin: 20px;
+  }
+  
+  .sub-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .explanation {
+    margin-bottom: 20px;
+  }
+  
+  .boxing-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  /* Add more specific styling for other sections as needed */
+  /* ... previous CSS code ... */
+
+/* Additional styling for the new sections */
+.section-heading {
+    margin: 20px;
+  }
+  
+  #Image2, #Image3, #Image4, #Image5, #Image6, #Image7 {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  /* Adjust styles for paragraphs as needed */
+  .paragraph {
+    margin: 20px;
+  }
+  
+  .P2 {
+    margin: 20px;
+  }
+  
+  /* Add more specific styling for new sections if necessary */
+  
