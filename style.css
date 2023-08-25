@@ -4,60 +4,57 @@
   background: var(--black, #f8f8f8);
 }
 
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.section-heading {
+  margin: 20px;
+}
+
+.sub-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.explanation {
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+
+.boxing-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  width: 100%;
+}
+
 @media (max-width: 768px) {
   .sub-heading {
     font-size: 20px;
   }
 
-  /* Reset default margin and padding on all elements */
-  body, h1, h2, h3, p, ul, li {
-    margin: 0;
-    padding: 0;
-  }
-
-  body {
-    font-family: Arial, sans-serif;
-  }
-
-  header {
-    background-color: #000;
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .section-heading {
-    margin: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .sub-heading {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    width: 100%;
+  .boxing-image {
+    margin: 10px 0; /* Adjust margin for smaller screens */
   }
 
   .explanation {
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    padding: 0 20px;
-    width: 50%;
-  }
-
-  .boxing-image {
-    max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-    width: 50%;
-  }
-
-  /* Clear the float after each section */
-  .section-heading::after {
-    content: "";
-    display: table;
-    clear: both;
+    padding: 0 10px; /* Adjust padding for smaller screens */
   }
 }
+
